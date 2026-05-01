@@ -21,5 +21,5 @@ jobs:
         cache: maven
         
     - name: Build and Test
-      # O comando aponta para o caminho onde está o seu pom.xml
+ 
       run: mvn -B test --file testes-automacao/pom.xml

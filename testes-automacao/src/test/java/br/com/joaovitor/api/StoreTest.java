@@ -22,7 +22,7 @@ public class StoreTest {
         .then()
             .statusCode(200)
             .contentType("application/json")
-            .body("$", hasKey("available")); // Verifica se existe a chave 'available' no retorno
+            .body("$", hasKey("available"));
     }
 
     @Test
